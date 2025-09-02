@@ -1,0 +1,75 @@
+.generos {  
+  display: flex;
+  flex-direction: column;
+  padding: 48px 160px;
+}
+
+.livros-genero {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.linha-destaque--pequena {
+  width: 32px;
+}
+
+.texto-h3-prata {
+  font-family: var(--font-prata);
+  font-size: 28px;
+  font-weight: var(--font-weight-normal);
+  line-height: 38px;
+  text-align: center;
+}
+.sem-livros img {
+  width: 150px;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.texto-sem-livros {
+  text-align: center;
+  margin-top: 16px;
+  color: #3b3b3b;
+  font-size: 20px;
+}
+.futebol {
+  background-color: #E8FFFF;
+}
+
+.generos .futebol {
+  border-bottom: 4px solid #82CFFA;
+}
+
+.biografia {
+  background-color: #E9FFE3;
+}
+
+.generos .biografia {
+  border-bottom: 4px solid #A6D157;
+}
+
+.historia {
+  background-color: #FFE3E3;
+}
+
+.generos .historia {
+  border-bottom: 4px solid #E06B69;
+}
+
+.esportes {
+  background-color: #FFF0FA;
+}
+
+.generos .esportes {
+  border-bottom: 4px solid #DB6EBF;
+}
+
+.jornalismo {
+  background-color: #FFF1E4;
+}
+
+.generos .jornalismo {
+  border-bottom: 4px solid #FF8A29;
+}
